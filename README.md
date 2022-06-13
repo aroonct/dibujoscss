@@ -1,2 +1,2 @@
 # DIBUJOSCSS
-## DibusjosCss son pequeños dibujos hechos con css3, como practica
+### DibusjoCss son pequeños dibujos hechos con css3.
