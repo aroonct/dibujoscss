@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+
+.contenedor{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.body{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 390px;
+    background: red;
+    margin: 50px auto;
+    border: 5px solid #000;
+    border-radius: 80% 80% 90% 90%;
+}
+
+.mancha{
+    position: absolute;
+    background: transparent;
+    height: 210px;
+    width: 120px;
+    left: 128px;
+    top: 30px;
+    border-right: 25px solid rgb(222, 211, 211);
+    border-radius: 40%;
+    -moz-transform: rotate(-22deg);
+    -webkit-transform: rotate(-22deg);
+    -o-transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+}
+
+.boca{
+    width: 12px;
+    height: 6px;
+    background: transparent;
+    position: absolute;
+    left: 145px;
+    top: 440px;
+    border-bottom: 18px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-radius: 35%;
+}

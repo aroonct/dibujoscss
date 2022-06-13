@@ -1,0 +1,163 @@
+body{
+    background-color: aqua;
+}
+
+.body{
+    background-color: #FF7F8C;
+    width: 300px;
+    height: 430px;
+    border: 5px solid #000;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.ojos{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    width: 210px;
+    z-index: 10;
+}
+
+.pestanas{
+    position: relative;
+    bottom: 28px;
+    left: 12px;
+}
+
+.pestana.primera{
+    position: absolute;
+    background: transparent;
+    border-top: 5px solid #000;
+    border-radius: 30%;
+    width: 70px;
+    height: 50px; 
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.pestana.segunda{
+    position: absolute;
+    background: transparent;
+    border-top: 5px solid #000;
+    border-radius: 30%;
+    width: 70px;
+    left: 10px;
+    height: 50px; 
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.ojo{
+    background-color: #fff;
+    position: relative;
+    border: 5px solid #000;
+    width: 100px;
+    height: 150px;
+    margin-right: -9px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.ojo_interno{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+
+.ojo_interno2{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 10px;
+}
+
+.boca{
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    width: 200px;
+    height: 80px;
+    z-index: 10;
+    border-radius: 50%;
+    background: transparent;
+    border-bottom: 7px solid #000;
+}
+
+.mejilla.primera{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    top: 243px;
+    left: 37px;
+    border-radius: 32%;
+    background: transparent;
+    border-top: 7px solid #000;
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.mejilla.segunda{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    top: 243px;
+    left: 220px;
+    border-radius: 32%;
+    background: transparent;
+    border-top: 7px solid #000;
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.pantalones{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    background: #39ff14;
+    border-top: 5px solid #000;
+    top: 340px;
+}
+
+.bolsillo{
+    position: relative;
+    width: 75px;
+    height: 65px;
+    background: #4c2882;
+    border-radius: 0% 0% 50% 50%;
+    left: 10px;
+    border-bottom: 5px solid #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+
+.bolsillo_interno{
+    position: relative;
+    width: 47px;
+    height: 38px;
+    top: 8px;
+    background: rgb(196, 186, 186);
+    border: 5px solid #000;
+    border-radius: 0% 0% 50% 50%;
+    left: 9px;
+}
