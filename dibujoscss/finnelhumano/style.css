@@ -1,0 +1,128 @@
+body{
+    background-image: url("http://perusmart.com/wp-content/uploads/2014/07/adventure-time-16321-1680x1050.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contenedor{
+    width: 400px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+    background-color: transparent;
+}
+.cabeza_cont{
+    position: absolute;
+    left: 120px;
+    width: 160px;
+    background-color: #fff;
+    border-radius: 40% 40% 0 0;
+    border-left: #000 solid 5px;
+    border-right: #000 solid 5px;
+    border-top: #000 solid 5px;
+    height: 135px;
+    margin: 90px auto;
+}
+
+.oreja1{
+    position: absolute;
+    left: -4px;
+    top: -20px;
+    width: 40px;
+    height: 70px;
+    border-radius: 30% 30% 0 0;
+    background-color: #fff;
+    border-top: #000 solid 5px;
+    border-left: #000 solid 5px;
+}
+
+.oreja2{
+    position: absolute;
+    left: 120px;
+    top: -20px;
+    width: 40px;
+    height: 70px;
+    border-radius: 30% 30% 0 0;
+    background-color: #fff;
+    border-top: #000 solid 5px;
+    border-right: #000 solid 5px;
+}
+
+.cara{
+    position: absolute;
+    background-color: pink;
+    width: 125px;
+    height: 75px;
+    top: 35px;
+    left: 13px;
+    border-radius: 45%;
+    border: #000 solid 5px;
+}
+
+.ojo1{
+    position: absolute;
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 15px;
+    left: 17px;
+}
+
+.ojo2{
+    position: absolute;
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 15px;
+    left: 88px;
+}
+
+.boca{
+    position: absolute;
+    background-color: transparent;
+    border-bottom: 5px solid #000;
+    width: 30px;
+    height: 20px;
+    border-radius: 40%;
+    top: 30px;
+    left: 48px;
+}
+
+.cuerpo{
+    position: absolute;
+    background-color: rgb(32, 51, 220);
+    width: 250px;
+    height: 190px;
+    top: 230px;
+    left: 80px;
+    border-radius: 15px 15px 0 0;
+    border: #000 solid 5px;
+}
+
+.brazo1{
+    position: absolute;
+    background-color: pink;
+    width: 50px;
+    height: 120px;
+    top: 66px;
+    border-top: #000 solid 5px;
+    border-right: #000 solid 5px;
+    border-bottom: #000 solid 5px;
+}
+
+.brazo2{
+    position: absolute;
+    background-color: pink;
+    width: 50px;
+    height: 120px;
+    top: 66px;
+    left: 196px;
+    border-top: #000 solid 5px;
+    border-left: #000 solid 5px;
+    border-bottom: #000 solid 5px;
+}
